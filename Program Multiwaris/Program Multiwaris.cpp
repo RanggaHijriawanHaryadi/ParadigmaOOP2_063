@@ -45,3 +45,9 @@ public:
 			+ jenisKelamin + " dari sekolah " + sekolah + "\n\n";
 	}
 };
+int main() {
+	pelajar siswa("andi laksono", "Laki-laki", "SMAN 1 Bantul");
+	cout << siswa.perkenalan();
+
+	return 0;
+}
